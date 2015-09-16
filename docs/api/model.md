@@ -119,7 +119,7 @@ var Model = sequelize.define('model', attributes, {
           email: {
             $like: email
           },
-          accesss_level {
+          accesss_level: {
             $gte: accessLevel
           }
         }
